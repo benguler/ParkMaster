@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <TableRow
+        android:paddingTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/id_button_timeloc_main"
+            android:text="Select Time/Location"
+            android:onClick="selectTimeLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/id_button_confirm_main"
+            android:text="Confirm"
+            android:onClick="confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/id_button_cancel_main"
+            android:text="Cancel"
+            android:onClick="cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/id_button_qr_main"
+            android:text="QR Tickets"
+            android:onClick="selectTicket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/id_button_account_main"
+            android:text="Account"
+            android:onClick="account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/id_button_exit_main"
+            android:text="Exit"
+            android:onClick="exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1"
+            />
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parkmaster.TicketWalletActivity"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <ListView
+        android:id="@+id/id_listview_wallet_ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:drawSelectorOnTop="false"/>
+
+    <Button
+        android:id="@+id/id_button_wallet_ticket"
+        android:text = "Show Ticket"
+        android:onClick="showTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/id_button_wallet_return"
+        android:text="return"
+        android:onClick="done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

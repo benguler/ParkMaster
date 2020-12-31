@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parkmaster.SignInActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/id_text_siginin_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login in to see username"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        />
+    <Button
+        android:id="@+id/id_button_signin_signin"
+        android:text = "Sign in to Google"
+        android:onClick="signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/id_button_signin_signout"
+        android:text="Sign out of Google"
+        android:onClick="signOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/id_button_signin_cont"
+        android:text="Continue"
+        android:onClick="cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/id_button_signin_exit"
+        android:text="Exit"
+        android:onClick="done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

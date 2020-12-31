@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DateActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Select end date"
+        android:textSize="30sp" />
+
+    <DatePicker android:id="@+id/id_date2_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/id_button_date2_continue"
+        android:text="Continue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="date2Continue"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/id_button_date2_cancel"
+        android:text="Cancel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="cancel"
+        android:layout_weight="1" />
+
+</LinearLayout>
